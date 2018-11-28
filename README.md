@@ -8,9 +8,11 @@ CarPlay是苹果在2014年推出的一个手机车机互联系统，CarPlay是�
 
 ## 二、关于CarPlay framework
 
-![iOS-CarPlay-framework](https://raw.githubusercontent.com/lishuzhi1121/iOS_CarPlayKit/master/images/iOS-CarPlay-framework.png)
+![iOS-CarPlay-framework-c](https://raw.githubusercontent.com/lishuzhi1121/iOS_CarPlayKit/master/images/iOS-CarPlay-framework.png)
 
 在苹果今年发布的iOS 12中，CarPlay可以支持第三方导航，比如高德地图。而在Xcode 10中可以找到CarPlay Framework。你可以在导航APP中自定义界面来显示导航信息。苹果提供了很多模版来显示不同的视图，开发者需要做的就是把需要展示的数据交给模版，这样CarPlay就会显示你所定义的数据。这种灵活性可以让你专注于CarPlay的体验而不需要花费力气适配所有支持CarPlay的车型。你只需花费一点点精力即可让你的导航APP拥有CarPlay的能力。
 
 在学习CarPlay框架的时候，我们需要了解这个框架中各个类的作用，为了方便理解，我画了下图：
+
+![CarPlay-c](https://raw.githubusercontent.com/lishuzhi1121/iOS_CarPlayKit/master/images/CarPlay.png)
 
