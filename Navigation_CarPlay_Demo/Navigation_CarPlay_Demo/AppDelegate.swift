@@ -45,4 +45,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate: CPApplicationDelegate {
+    // CarPlay 与 APP 连接成功后的回调
+    func application(_ application: UIApplication, didConnectCarInterfaceController interfaceController: CPInterfaceController, to window: CPWindow) {
+        
+    }
+    
+    // CarPlay 与 APP 断开链接后的回调
+    func application(_ application: UIApplication, didDisconnectCarInterfaceController interfaceController: CPInterfaceController, from window: CPWindow) {
+        
+    }
+    
+    // 点击 CarPlay 的导航弹窗后的回调
+    func application(_ application: UIApplication, didSelect navigationAlert: CPNavigationAlert) {
+        
+    }
+    
+    // 点击 CarPlay 的导航指示后的回调
+    func application(_ application: UIApplication, didSelect maneuver: CPManeuver) {
+        
+    }
+    
+}
+
 

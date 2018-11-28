@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E124D6721ABA3A9009391E3 /* CarPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E124D6621ABA3A9009391E3 /* CarPlay.framework */; };
 		5E5E1C23219D56C3008D2B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E1C22219D56C3008D2B77 /* AppDelegate.swift */; };
 		5E5E1C25219D56C3008D2B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E1C24219D56C3008D2B77 /* ViewController.swift */; };
 		5E5E1C28219D56C3008D2B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E1C26219D56C3008D2B77 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E124D6621ABA3A9009391E3 /* CarPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarPlay.framework; path = System/Library/Frameworks/CarPlay.framework; sourceTree = SDKROOT; };
 		5E5E1C1F219D56C3008D2B77 /* Navigation_CarPlay_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation_CarPlay_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5E1C22219D56C3008D2B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E5E1C24219D56C3008D2B77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +33,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E124D6721ABA3A9009391E3 /* CarPlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E124D6521ABA3A8009391E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E124D6621ABA3A9009391E3 /* CarPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E5E1C16219D56C3008D2B77 = {
 			isa = PBXGroup;
 			children = (
 				5E5E1C21219D56C3008D2B77 /* Navigation_CarPlay_Demo */,
 				5E5E1C20219D56C3008D2B77 /* Products */,
+				5E124D6521ABA3A8009391E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
